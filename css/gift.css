@@ -1,0 +1,96 @@
+body {
+    height: 1080px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.out__layout{
+    width: 600px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+
+    background: #a8af94;
+    border-radius: 8px;
+}
+
+.inner__layout{
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+
+    background: #dddddd;
+    border-radius: 8px;
+}
+
+
+.message__input{
+    display: none;
+    width :60%;
+    height: 120px;
+    resize: none;
+    padding: 20px;
+    text-align: center;
+    line-height: 20px;
+    animation-name: show-message;
+    animation-duration:1s;
+    overflow-y:hidden;
+    border: none;
+}
+
+.message__btn{
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+
+    border:1px solid;
+    border-radius: 9px;
+}
+
+@keyframes show-message{
+    from{
+        width: 0px;
+        height: 0px;
+    }
+    to{
+        width: 60%;
+        height: 120px;
+    }
+}
+
+/* 슬라이더 */
+.slider{
+    width: 100%;
+    height: 50px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider__circle{
+
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+
+    background: gray;
+
+    border-radius: 15px;
+
+}
+
+.selected__slider__circle{
+
+    background: red;
+}

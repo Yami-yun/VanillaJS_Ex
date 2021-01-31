@@ -1,0 +1,103 @@
+/*  adbar 전체 레이아웃 */
+
+.adbar__layout{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 550px;
+    border: 3px solid red;
+    border-radius: 24px;
+}
+
+.adbar__inner__layout{
+    border: 2px solid #e6e6e6;
+}
+
+
+/* 사이드 광고바 타이틀 */
+
+.adbar__header{
+
+    width:230px;
+    height: 40px;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10px;
+    background: #f5f5f5;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+h1{
+    font-size: 0.9rem;
+}
+
+
+
+.adbar__header__right__side{
+    display:flex;
+    /* border: 1px solid; */
+}
+
+.adbar__header span{
+    font-size: 0.8rem;
+    
+}
+
+.adbar__header button{
+    margin-left: 4px;
+    margin-top: 3px;
+    background: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+/* 광고 아이템 목록 */
+.adbar__list{
+    width: 230px;
+    height: 400px;
+    padding: 10px 4px;
+
+    
+}
+
+.adbar__list__item{
+    width: 240px;
+    height: 18%;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    /* border : 1px solid; */
+    margin-bottom: 3%;
+
+}
+
+.adbar__list__item img{
+    width: 80px;
+    height: 98%;
+    margin-right: 0.8em;
+    object-fit: contain;
+
+    border: 1px solid #e6e6e6;
+}
+
+/* 바로가기 버튼 리스트 */
+.adbar__btn__list{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.adbar__btn__list a{
+    /* display: box; */
+    width: 80.5px;
+    height: 30px;
+
+    text-align:center;
+    line-height: 30px;
+
+    border: 2px solid #e6e6e6;
+}

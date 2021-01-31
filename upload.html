@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    <link rel="stylesheet" type="text/css" href="css/upload.css"/>
+    
+    <script type="text/javascript" src="js/upload.js" defer></script>
+</head>
+<body>
+    <h1 class="page__title">상품등록</h1>
+    <form action="https://www.naver.com" id="img__form">
+        <!-- 상품 타이틀 입력 -->
+        <input class="input__title" placeholder="타이틀을 입력해주세요." required/>
+
+        <!-- 사진 업로드 -->
+        <div class="photo__input__box">
+            <label>사진 등록</label>
+            <div class="img__list">
+                <div class="empty">
+                    +<input type="file" accept="img/*" required multiple class="photo" required/>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- 상품 상세설명 -->
+        <textarea class="detail" placeholder="상품에 대한 상세설명을 적어주세요." requiredfor></textarea>
+
+        <button id="btn" type="submit">등록 완료</button>
+    </form>
+</body>
+</html>

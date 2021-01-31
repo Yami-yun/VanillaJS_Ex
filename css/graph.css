@@ -1,0 +1,17 @@
+body{
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph__create__btn{
+    width: 100px;
+    height: 40px;
+
+    border: 1px solid black;
+    border-radius: 9px;
+    font-weight: 700;
+}
+
+
