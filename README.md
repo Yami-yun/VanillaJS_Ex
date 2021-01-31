@@ -2,9 +2,12 @@
 <br>
 <br>
 <br>
-### VanillaJS_Ex 을 만든 목적
-Vanilla JS Example 연습 겸 만들었습니다.
 
+### VanillaJS_Ex 을 만든 목적
+> Vanilla JS Example 연습 겸 만들었습니다.
+
+<br>
+<br>
 
 ### 각 기능 설명
 - ad.html
